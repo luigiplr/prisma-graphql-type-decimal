@@ -3,13 +3,13 @@
   "version": "0.0.0-dev",
   "license": "MIT",
   "description": "GraphQL type for Prisma's Decimal scalar, wrapper around decimal.js",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/prisma-graphql-type-decimal.cjs",
+  "module": "./dist/prisma-graphql-type-decimal.mjs",
+  "types": "./dist/prisma-graphql-type-decimal.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": "./dist/prisma-graphql-type-decimal.mjs",
+      "require": "./dist/prisma-graphql-type-decimal.cjs"
     }
   },
   "repository": {
